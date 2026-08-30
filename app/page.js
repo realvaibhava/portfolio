@@ -81,6 +81,7 @@ export default function Home() {
             <Image
               src={companies}
               quality={100}
+              sizes="(max-width: 640px) calc(100vw - 32px), 640px"
               // width={4800}
               // height={2560}
               style={{
@@ -180,7 +181,7 @@ export default function Home() {
                 }}
                 // priority={true}
                 placeholder='blur'
-                sizes="(max-width: 312px) 100%"
+                sizes="(max-width: 640px) calc(100vw - 32px), 316px"
                 alt=""
               />
               <Image
@@ -196,7 +197,7 @@ export default function Home() {
                 }}
                 // priority={true}
                 placeholder='blur'
-                sizes="(max-width: 312px) 100%"
+                sizes="(max-width: 640px) calc(100vw - 32px), 316px"
                 alt=""
               />
               <Image
@@ -212,7 +213,7 @@ export default function Home() {
                 }}
                 // priority={true}
                 placeholder='blur'
-                sizes="(max-width: 312px) 100%"
+                sizes="(max-width: 640px) calc(100vw - 32px), 316px"
                 alt=""
               />
               <Image
@@ -228,7 +229,7 @@ export default function Home() {
                 }}
                 // priority={true}
                 placeholder='blur'
-                sizes="(max-width: 312px) 100%"
+                sizes="(max-width: 640px) calc(100vw - 32px), 316px"
                 alt=""
               />
             </div>

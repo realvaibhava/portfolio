@@ -19,6 +19,7 @@ export default function ProjectHub() {
                             <Image
                                 src={i.image}
                                 quality={100}
+                                sizes="(max-width: 640px) calc(100vw - 32px), 640px"
                                 // width={4800}
                                 // height={2560}
                                 style={{
